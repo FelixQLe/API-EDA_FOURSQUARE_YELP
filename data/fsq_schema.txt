@@ -1,0 +1,20 @@
+CREATE TABLE sqlite_sequence(name,seq);
+CREATE TABLE IF NOT EXISTS "popularity_rate" (
+"fsq_id" TEXT,
+  "name" TEXT,
+  "timezone" TEXT,
+  "popularity" REAL
+);
+CREATE TABLE IF NOT EXISTS "location" (
+"fsq_id" TEXT,
+  "address" TEXT,
+  "locality" TEXT,
+  "postcode" TEXT,
+  "region" TEXT,
+  "country" TEXT
+);
+CREATE TABLE IF NOT EXISTS "categories" (
+"fsq_id" TEXT,
+  "id" INTEGER,
+  "name" TEXT
+);

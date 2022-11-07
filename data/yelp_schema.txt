@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS "Barrie_locations" (
+"id" TEXT,
+  "name" TEXT,
+  "review_count" INTEGER,
+  "rating" REAL,
+  "price" TEXT,
+  "display_phone" TEXT
+);
